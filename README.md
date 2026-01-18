@@ -32,37 +32,19 @@ This project covers:
 
 ## Project Structure
 
-├── route.h              # Header file for Route helper functions
-├── route.cpp            # Implementation of Route helper functions
-├── planRoute.cpp        # Driver program containing main()
-├── locations_1.txt      # Sample input file
+├── route.h # Header file for Route helper functions
+├── route.cpp # Implementation of Route helper functions
+├── planRoute.cpp # Driver program containing main()
+├── locations_1.txt # Sample input file
 ├── locations_2.txt
 ├── names_1.txt
 ├── names_2.txt
-├── journey_1.txt        # Example output file
+├── journey_1.txt # Example output file
 ├── journey_2.txt
 └── README.md
 
 ---
 
-## Make a Copy of This Project
-
-### Clone
-
-git clone https://github.com/johnhawver/glyft-route-planner.git 
-
-### Compile
-g++ -std=c++11 -Wall -pedantic planRoute.cpp route.cpp -o planRoute
-
-### Run
-./planRoute
-
-The program will prompt you for the locations file and names file
-
-Enter Locations Filename:
-Enter Names Filename:
-
-It will then generate a journey.txt file containing the mapped route and the order of planet stops.
 
 ### Example Output (journey.txt)
 
@@ -70,12 +52,12 @@ It will then generate a journey.txt file containing the mapped route and the ord
 .XX.S
 .....
 .....
-..... 
+.....
 EQ...
 ..A..
 X....
 ..P..
-..... 
+.....
 .....
 T....
 Start at 2 5
